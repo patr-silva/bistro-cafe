@@ -1,0 +1,56 @@
+.form {
+  margin: 1rem 0;
+  height: auto;
+  overflow-y: auto;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.control input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20rem;
+  max-width: 100%;
+  overflow-y: auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.actions button {
+  font: inherit;
+  color: white;
+  cursor: pointer;
+  background-color: #7f3a40;
+  border: 1px solid #7f3a40;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  font-family: "Lato";
+}
+
+.submit {
+  border: 1px solid #7f3a40;
+  background-color: #7f3a40;
+  color: white;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+

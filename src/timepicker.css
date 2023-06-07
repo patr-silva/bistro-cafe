@@ -1,0 +1,10 @@
+.react-time-picker{
+  background-color: white;
+  border: none;
+}
+.react-time-picker__wrapper {
+  border: none;
+}
+.react-time-picker__inputGroup__input {
+  outline: none;
+}

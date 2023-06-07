@@ -1,0 +1,13 @@
+.form {
+  text-align: right;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: rgb(202, 138, 4);
+  border: 1px solid white;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 5px;
+}

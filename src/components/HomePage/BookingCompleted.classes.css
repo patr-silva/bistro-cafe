@@ -1,0 +1,17 @@
+.actions {
+    text-align: right;
+  }
+  
+  .button {
+    cursor: pointer;
+    background-color: #7f3a40;
+    border: 1px solid #7f3a40;
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-family: "Lato";
+  }
+  
+
+  
