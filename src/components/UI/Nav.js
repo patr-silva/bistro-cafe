@@ -10,7 +10,7 @@ const Nav = () => {
           return (
             <li key={index}>
               <a
-                className='text-l capitalize font-primary italic hover:text-dark transition-all duration-300'
+                className='text-base capitalize hover:text-xl transition-all duration-300'
                 href={item.href}
               >
                 {item.name}

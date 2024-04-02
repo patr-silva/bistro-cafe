@@ -46,15 +46,15 @@ const Menu = () => {
       >
         <div className='container mx-auto'>
           <div className='lg:-mt-24 min-h-[590px] z-30 mb-8 md:mb-4 xl:mb-16'>
-            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8 min-h-[590px]'>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8 min-h-[500px]'>
               {menuItems.map((item, index) => {
                 return <MenuItem item={item} key={index} />;
               })}
             </div>
-          </div>
           <Link to='/order'>
-            <button className='btn mx-auto capitalize'>{btnText}</button>
+            <button className='btn mx-auto capitalize mt-6'>{btnText}</button>
           </Link>
+          </div>
         </div>
       </motion.div>
     </section>

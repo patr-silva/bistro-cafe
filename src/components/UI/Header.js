@@ -92,7 +92,7 @@ const Header = () => {
 
           <motion.div
             variants={fadeIn("down", "tween", 1.2, 1.4)}
-            className='order-1 lg:order-none lg:ml-[11rem]'
+            className='order-1 lg:order-none lg:ml-[5rem]'
           >
             <a href='#home'>
               <img
@@ -100,7 +100,7 @@ const Header = () => {
                   isActive ? "w-[90px] h-[90px]" : "w-[107px] h-[107px]"
                 }`}
                 src={LogoWhite}
-                alt=''
+                alt='logo'
               />
             </a>
           </motion.div>

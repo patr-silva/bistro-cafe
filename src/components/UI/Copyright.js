@@ -4,9 +4,9 @@ const Copyright = () => {
   return (
     <div className='border-t border-white/20'>
       <div className='container mx-auto'>
-        <div className='pt-6 pb-8'>
+        <div className='pt-16'>
           <p className='text-base text-center'>
-            Copyright &copy; 2023 Bistro Cafe. All rights reserved.
+            Copyright &copy; 2024 Bistro Cafe. All rights reserved.
           </p>
         </div>
       </div>

@@ -19,7 +19,7 @@ const About = () => {
             className='flex-1 text-center lg:text-left'
           >
             <h2 className='h2 capitalize'>{title}</h2>
-            <p className='mb-8 max-w-[560px]'>{subtitle}</p>
+            <p className='mb-8 max-w-[560px] font-primary text-grey'>{subtitle}</p>
             <a href='#reservation'>
               <button className='btn capitalize mx-auto lg:mx-0'>
                 {btnText}

@@ -116,26 +116,15 @@ const Booking = () => {
             variants={staggerContainer}
             initial='hidden'
             whileInView={"show"}
-            className='text-center'
+            className='text-center '
           >
             <motion.h2
               variants={fadeIn("up", "tween", 0.2, 1.6)}
-              className='h2 capitalize'
+              className='h2 capitalize mt-12 mb-16'
             >
               {title}
             </motion.h2>
-            <motion.p
-              variants={fadeIn("up", "tween", 0.4, 1.6)}
-              className='mb-8 text-dark'
-            >
-              {subtitle}
-            </motion.p>
-            <motion.div
-              variants={fadeIn("up", "tween", 0.6, 1.6)}
-              className='flex justify-center mb-8'
-            >
-              <img src={modelImg} alt='' />
-            </motion.div>
+      
           </motion.div>
 
           <motion.form
@@ -144,7 +133,7 @@ const Booking = () => {
             whileInView={"show"}
             onSubmit={confirmHandler}
           >
-            <div className='grid lg:grid-cols-3 gap-y-4 sm:grid-cols-none items-center justify-between sm:justify-center mb-8 ml-8'>
+            <div className='grid lg:grid-cols-3 gap-y-6 sm:grid-cols-none items-center justify-between sm:justify-center mb-10 ml-8'>
               <div>
                 <div className='flex items-center gap-x-[10px] font-semibold text-dark text-base mb-3'>
                   <BsFillPersonFill />

@@ -10,15 +10,15 @@ const MenuItem = (props) => {
         <img src={image} alt={name} />
       </div>
      
-      <div className='bg-[#fff3e4] flex-1 flex flex-col justify-center px-6 lg:p-12 lg:max-h-[250px] xl:max-h-max'>
+      <div className='bg-[#fff3e4] flex-1 flex flex-col justify-center px-6 lg:p-12 xl:max-h-max'>
         <div className='text-center'>
-          <div className='text-xl font-semibold text-dark xl:text-2xl'>
+          <div className='text-xl font-primary font-semibold text-dark xl:text-2xl lg:mt-[-10%]'>
             {name}
           </div>
-          <div className='my-1 text-[20px] lg:text-[40px] lg:my-6 text-bordeux font-semibold'>
+          <div className="my-1">{description}</div>
+          <div className='my-1 text-[16px] lg:text-[20px] lg:my-6 text-bordeux font-semibold'>
             {`$ ${price}`}
           </div>
-          <div>{description}</div>
     
         </div>
       </div>

@@ -1,10 +1,4 @@
-import {
-  FaYoutube,
-  FaFacebookF,
-  FaInstagram,
-  FaPinterestP,
-  FaDiscord,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 import AboutImg from "../src/assets/img/about/plate.png";
 import ModelWhiteImg from "../src/assets/img/model-white.png";
@@ -21,35 +15,32 @@ import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
 
 export const navData = [
   { href: "#home", name: "home" },
-  { href: "#about", name: "about" },
+  { href: "#about", name: "about us" },
   { href: "#menu", name: "menu" },
-  { href: "#reservation", name: "book a table" },
+  { href: "#reservation", name: "reservations" },
   { href: "#team", name: "team" },
-  { href: "#testimonials", name: "testimonials" },
-  { href: "#contact", name: "contact" },
+  { href: "#testimonials", name: "reviews" },
+  { href: "#contact", name: "contacts" },
 ];
 
 export const heroData = {
-  pretitle: "Nothing brings together like",
-  title: "Bistro Cafe",
+  pretitle: "Nothing brings people together like",
+  title: "Bistro Café",
   subtitle:
     "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ",
   btnText: "Menu",
 };
 
 export const socialData = [
-  { href: "https://www.youtube.com/", icon: <FaYoutube /> },
   { href: "https://www.facebook.com/", icon: <FaFacebookF /> },
   { href: "https://www.instagram.com/", icon: <FaInstagram /> },
-  { href: "https://www.pinterest.com/", icon: <FaPinterestP /> },
-  { href: "https://discord.com/", icon: <FaDiscord /> },
+  { href: "https://tiktok.com/", icon: <FaTiktok /> },
 ];
 
 export const aboutData = {
-  pretitle: "our story",
   title: "More than a restaurant...",
   subtitle:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur, quasi minima molestiae ex exercitationem culpa quisquam architecto quaerat, iusto dolores labore, sapiente magni rem commodi aperiam ad dolorem neque ducimus. Placeat vel non quod quis pariatur a aperiam, aliquam adipisci voluptatum voluptatem sit cupiditate dolore natus beatae earum omnis.",
+    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur, quasi minima molestiae ex exercitationem culpa quisquam architecto quaerat, iusto dolores labore, sapiente magni rem commodi aperiam ad dolorem neque ducimus.",
   btnText: "Reservations",
   image: AboutImg,
 };
@@ -65,28 +56,28 @@ export const menuData = {
       name: "Chocolate Cake",
       price: 7.99,
       description: "Lorem ipsum dolor sit amet, consectetur.",
-      id:1
+      id: 1,
     },
     {
       image: MenuImg2,
       name: "Veggie Burger",
       price: 9.49,
       description: "Lorem ipsum dolor sit amet.",
-      id:2
+      id: 2,
     },
     {
       image: MenuImg3,
       name: "King Burger",
       price: 8.55,
       description: "Lorem ipsum dolor sit amet, consectetur.",
-      id:3
+      id: 3,
     },
     {
       image: MenuImg4,
       name: "Mexican Burger",
       price: 9.99,
       description: "Lorem ipsum dolor sit amet, consectetur.",
-      id:4
+      id: 4,
     },
   ],
 };
@@ -103,38 +94,35 @@ export const teamData = {
 };
 
 export const testimonialData = {
-  title: "what client's say ",
+  title: "Reviews",
   subtitle: "1500+ statisfied clients",
   modelImg: ModelWhiteImg,
   slider: [
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus.",
       image: Avatar1,
       name: "Rick Thompson",
-
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
       image: Avatar2,
       name: "John Doe",
-
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus.",
       image: Avatar3,
       name: "Henry A.",
- 
     },
   ],
 };
 
 export const reservationData = {
-  title: "booking form",
+  title: "Reservations",
   subtitle:
-    "Call (800) 123-4567 from 5AM - 11PM daily. Reservations required for parties of 6 or more.",
+    "Call (800) 123-4567 from 5AM - 11PM daily.",
   modelImg: ModelBlackImg,
   btnText: "make your reservation",
 };
@@ -168,11 +156,9 @@ export const footerData = {
   social: {
     title: "social network",
     icons: [
-      { href: "https://www.youtube.com/", icon: <FaYoutube /> },
       { href: "https://www.facebook.com/", icon: <FaFacebookF /> },
       { href: "https://www.instagram.com/", icon: <FaInstagram /> },
-      { href: "https://www.pinterest.com/", icon: <FaPinterestP /> },
-      { href: "https://discord.com/", icon: <FaDiscord /> },
+      { href: "https://www.tiktok.com/", icon: <FaTiktok /> },
     ],
   },
 };
