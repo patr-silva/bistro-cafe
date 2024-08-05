@@ -1,7 +1,8 @@
 <h1 align="center">Welcome to Bistro Café 👋</h1>
 
 > Website concept for a bistro café.
->
+> 
+> ⚠️ Work in progress... 🚧
 
 <div>
 <img width="440" alt="Home" src="https://github.com/user-attachments/assets/ab59259e-9e1f-47f3-bcfa-84310333b629">
