@@ -1,8 +1,10 @@
-<h1 align="center">Welcome to Bistro Café 👋</h1>
+<h1 align="center">Welcome to Bistro Café ☕</h1>
 
-> Website concept for a bistro café.
+This is a simple concept website for an eco-friendly company, created using React and TailwindCSS. This website primarily serves as an informational page, providing visitors with details about the company. 
 > 
-> ⚠️ Work in progress... 🚧
+> ⚠️ Work in progress...
+> <br/>
+> 🚧 This project is currently a work in progress. Additional style changes and enhancements are planned to improve the overall look and feel of the website.
 
 <div>
 <img width="440" alt="Home" src="https://github.com/user-attachments/assets/ab59259e-9e1f-47f3-bcfa-84310333b629">
@@ -11,23 +13,24 @@
 <img width="440" alt="Homepage" src="https://github.com/user-attachments/assets/a33fee4a-3140-46db-b0cd-d29025cab2a2">
 </div>
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-</p>
+## Installation and Setup
+
+#### Clone the repository
+```sh
+git clone https://github.com/patr-silva/bistro-cafe.git
+```
+
+#### Install dependencies
+```sh
+npm install
+```
+
+#### Start the project
+```sh
+npm run start
+```
+
 
 ## Tech Stack
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white)
-
-
-## Author
-
-👤 **Patricia Silva**
-
-* LinkedIn: [@patr-silva](https://linkedin.com/in/patr-silva)
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
