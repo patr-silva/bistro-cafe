@@ -31,9 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is a static webpage showcasing a simulated sneaker store, designed and developed using React and Tailwind CSS. My goal with this project was to practice my skills using modern web development technologies. The webpage highlights key features of a sneaker store, including product displays, store information, and a clean, modern aesthetic.
-
-This project is a simulated cafe website featuring online ordering and reservation functionalities, developed using React and Tailwind CSS. My goal with this project is to practice my skills using modern web development technologies.The project allows me to practice state management, user interface design, and responsive development using Tailwind CSS.
+This project is a simulated cafe website featuring online ordering and reservation functionalities, developed using React and Tailwind CSS. My goal with this project is to practice my skills using modern web development technologies.This project allows me to practice state management, user interface design, and responsive development using Tailwind CSS.
 
 ### Built With
 
