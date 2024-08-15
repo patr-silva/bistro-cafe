@@ -4,7 +4,7 @@
 <h1 align="center">Bistro Café ☕ </h1>
 <p align="center">React-based cafe website with online ordering and reservation system, built with Tailwind CSS for a sleek and user-friendly experience.</p>
 <p>
-The project is in progress and will undergo further refinements to optimize its functionality and user experience.
+⚠️ This project is in progress and will undergo further refinements to optimize its functionality and user experience.
 </p>
 </div>
 
